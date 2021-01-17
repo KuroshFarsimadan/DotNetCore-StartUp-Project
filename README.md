@@ -1,4 +1,4 @@
-ABOUT:
+﻿ABOUT:
 This project is a simple skeleton for Angular + .NET Core. All of the necessary
 error handling or logic has not been added so use it with caution. This project
 is not supposed to be user friendly or follow the best practices in Angular routing or
@@ -58,3 +58,4 @@ View -> SQL Server Object Explorer
 BONUS
 7. Run the project using HTTPS/SSL. Generate certificate for this
 and add the necessary configuration
+
