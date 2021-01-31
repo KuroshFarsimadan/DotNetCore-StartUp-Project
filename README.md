@@ -1,4 +1,6 @@
-﻿ABOUT:
+﻿UNDER CONSTRUCTION / NOT YET READY FOR USE
+
+ABOUT:
 This project is a simple skeleton for Angular + .NET Core. All of the necessary
 error handling or logic has not been added so use it with caution. This project
 is not supposed to be user friendly or follow the best practices in Angular routing or
