@@ -1,0 +1,17 @@
+﻿View Models vs. Data Transfer Object (DTO)
+
+For a new person who is just starting, there might be some difficulty
+understanding the difference between a model which is used for requests
+and responses and a DTO object. 
+
+The difference is that DTO's are usually used internally to transfer and 
+store data in one object. Usually DTO's in real world applications can 
+contain 20 - 30 or more different variable fields and child objects. You 
+don't want to pass most of this data to the client side e.g. passwords, 
+date creation of a data row and so on. 
+
+Note that even response and request object can differ in terms of what fields
+they contain. Usually it's a good practice to have a standardized response and
+request object data structure so that the client side data handling is as generic
+as possible e.g. in cases of errors and status handlings when data response is 
+received by the client side. 
